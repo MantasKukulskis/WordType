@@ -1,77 +1,84 @@
-## 🧠 Emoji Memory Game
-
-<br>
+## ⌨️ Typing Speed Test App
 
 ## 🌟 About
 
-**Emoji Memory Game** is a simple and fun browser-based game where players match hidden emoji pairs on a grid. The goal is to find all matching emoji by flipping two cards at a time and remembering their positions.
+Typing Speed Test is a browser-based web app that helps users test and improve their typing speed. It randomly generates a paragraph that the user needs to type as accurately and quickly as possible within 60 seconds.
 
-Site published at: https://github.com/MantasKukulskis/PickMachEasy
+Site published at: https://github.com/MantasKukulskis/WordType
 
-Design: !by mentorė Gabija
+Design: Original functionality and style by developer.
 
-## 🎮 How to Play
+## 🎮 How to Use
 
-1. Click on any two hidden emoji cards to reveal them.
-2. If the emojis match, they stay visible.
-3. If they don’t match, they flip back after a short delay.
-4. Continue until all emoji pairs are matched and the entire grid is filled.
+A random paragraph appears at the top of the screen.
 
-🧩 It’s a great way to test your memory and have fun with emojis!
+Start typing in the input field below.
 
----
+As you type:
 
-## 🎯 Project features/goals
+Correct letters are highlighted.
 
-- Github pages
-- 🟩 Simple grid-based layout with hidden emoji
-- 💡 Interactive card flipping animation
-- 🧠 Memory challenge with increasing difficulty
-- 🏁 Detects when the game is completed
-- 🔁 Optionally supports restart button to play again
+Mistakes are tracked in real time.
+
+Timer starts automatically on your first keystroke.
+
+When time runs out:
+
+See your WPM (Words Per Minute), CPM (Characters Per Minute), and mistakes.
+
+Click "Try Again" to reset and test again.
+
+-🧠 Great for improving typing skills and speed!
+
+🎯 Project Features/Goals
+
+- 📄 Random paragraph generator
+
+- ⏱️ 60-second countdown timer
+
+- 🎯 Tracks mistakes in real-time
+
+- 🔠 Calculates WPM and CPM accurately
+
+- ♻️ Reset functionality with Try Again button
 
 ## 🧰 Getting Started
 
-### 💻 Prerequisites
+## 💻 Prerequisites
 
-Node.js - _download and install_
+Node.js - download and install
 
-```
 https://nodejs.org
-```
 
-Git - _download and install_
+Git - download and install
 
-```
 https://git-scm.com
-```
 
-### 🏃 Run locally
+## 🏃 Run Locally
 
 Would like to run this project locally? Open terminal and follow these steps:
 
-1. Clone the repo
-   ```sh
-   git clone https://github.com/MantasKukulskis/PickMachEasy.git
-   ```
-2. Install NPM packages
-   ```sh
-   npm i
-   ```
-   or
-   ```sh
-   npm install
-   ```
-3. Run the server
-   ```sh
-   npm run dev
-   ```
+Clone the repo
 
-### 🧪 Running tests
+git clone https://github.com/MantasKukulskis/WordType.git
 
-There is no tests for this project.
+Install NPM packages
 
-## 🎅 Authors
+npm i
+
+or
+
+npm install
+
+Run the server
+
+npm run dev
+
+## 🧪 Running Tests
+
+There are no automated tests included in this project.
+
+## 👨‍💻 Author
 
 Mantas: [Github](https://github.com/MantasKukulskis)
 
@@ -79,6 +86,6 @@ Mantas: [Github](https://github.com/MantasKukulskis)
 
 Distributed under the MIT License. See LICENSE.txt for more information.
 
-## 🔗 Other resources
+## 🔗 Other Resources
 
-No other resources.
+No additional resources at this time.
